@@ -221,9 +221,14 @@ main{
         }}
 
         @media (max-width: 400px) {
+        .titulo >p{
 
-        header{
-                  
+            font-size: 14px;
+            text-align: center;
+        }}
+            
+        @media (max-width: 400px) {
+        header{                  
             height: 150px;
            
         }}
