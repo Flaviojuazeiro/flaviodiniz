@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --fonte1: 'Montserrat', sans-serif;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(7, 9, 167);
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+}
+
+.perfil{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 4px solid white;
+    border-radius: 50%;
+    bottom: -115px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+
+}
+
+.perfil:hover{
+    border: 4px solid rgb(246, 248, 142);
+    background-color: rgb(246, 248, 142);
+    transition: 0.5s;
+
+
+}
+
+.contaner1{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+
+}
+
+.titulo{
+    display: inline-block;
+    
+
+}
+.titulo >h1{
+    font-family: var(--fonte1);
+    font-size: 45px;
+    font-weight:800;
+    text-align: center;
+    padding-top: 130px;
+    color: rgb(14, 4, 36);
+}
+
+.titulo >p{
+    font-family: var(--fonte1);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    text-transform:uppercase;
+    color: rgb(70, 73, 71);
+}
+
+.menu  >main >a > p{
+    display: inline-block;
+    font-family: var(--fonte1);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 0px 0px 15px;
+   
+}
+
+.menu > main >a{
+    display: flex;
+     width: 160px;
+    text-decoration: none;
+    font-family: var(--fonte1);
+    color: rgb(14, 4, 36);
+    align-items: center;
+    
+
+}
+
+.menu{
+    padding: 80px;
+}
+
+.menu >main >a>img{
+    width: 35px;
+    
+  
+}
+
+main{
+    display: flex;
+    max-width: 50%;
+    height: 50px;
+    margin: 20px auto;
+    border: 1px solid rgb(82, 82, 83);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.185);  
+    
+}
+
+main:hover{
+    border: 1px solid rgb(161, 161, 161);
+
+}
+
+.artigo{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(169, 169, 169, 0.322);
+    font-family: var(--fonte1);
+    font-size: 50px;
+    font-weight: 700;    
+    align-items: center;
+    text-align: center;
+    color: rgb(14, 4, 36);
+    border-top: 4px solid white;
+      
+}
+
+.artigo:hover{
+    background-color: rgba(169, 169, 169, 0.178);
+
+    border-top: 4px solid rgb(246, 248, 142);
+    
+    transition: 0.5s;
+    
+    
+   
+    
+}
+
+aside{
+   margin: 0 auto;
+}
+
+#autor{
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px;
+    
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    
+   
+   
+}
+
+footer > p{
+    display: flex;
+    font-family: var(--fonte1);
+    color: white;
+    font-size: 15px;
+    
+}
+
+footer > p>img{
+    width: 20px;
+    
+}    
+
+
+
+
+
+
+
+
+
+
+
