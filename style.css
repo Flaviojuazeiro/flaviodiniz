@@ -184,9 +184,25 @@ footer > p{
 footer > p>img{
     width: 20px;
     
-}    
+}   
 
+/*Resolução 700*/
 
+@media (max-width: 700px) {
+    .artigo{
+        font-size: 35px;
+        font-weight: 700;  
+        text-justify: inter-word;
+        padding: 10px;
+        
+    }
+
+    @media (max-width: 700px) {
+        #autor{
+            font-size: 20px;
+            font-weight: 300;
+            padding: 10px;
+        }
 
 
 
