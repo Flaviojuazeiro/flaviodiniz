@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --fonte1: 'Montserrat', sans-serif;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(7, 9, 167);
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+}
+
