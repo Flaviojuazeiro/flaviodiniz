@@ -107,7 +107,7 @@ header{
 main{
     display: flex;
     max-width: 60%;
-    height: 50px;
+    height: 55px;
     margin: 20px auto;
     border: 1px solid rgb(82, 82, 83);
     border-radius: 25px;
@@ -191,6 +191,12 @@ footer > p>img{
 }   
 
 /*Resolução 700*/
+@media (max-width: 700px) {
+.titulo >p{
+
+    font-size: 14px;
+    text-align: center;
+}}
 
 @media (max-width: 700px) {
 main{
@@ -223,7 +229,7 @@ main{
         @media (max-width: 400px) {
         .titulo >p{
 
-            font-size: 14px;
+            font-size: 12px;
             text-align: center;
         }}
             
