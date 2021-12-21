@@ -24,3 +24,31 @@ header{
     background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
 }
 
+.contaner1{
+    display: flex;
+    display: inline-block;
+    justify-items: center;
+    justify-content: center;
+   
+}
+
+.contaner1>h1{
+    font-family: var(--fonte1);
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+    padding: 3px 0px 0px 30px;
+    text-align: center;
+}
+.contaner1>p{
+    font-family: var(--fonte1);
+    font-size: 12px;
+    font-weight: 400;
+    text-transform:uppercase;
+    color: white;    
+    text-align: right;
+    
+
+}
+
+
