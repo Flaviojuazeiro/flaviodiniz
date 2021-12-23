@@ -130,7 +130,7 @@ main:hover{
     width: 100%;
     height: 350px;
     background-color: rgba(169, 169, 169, 0.205);
-    background: linear-gradient(180deg, rgba(151, 151, 151, 0.301) 0%, rgb(244, 245, 245) 100%);
+    background: linear-gradient(180deg, #DCDCDC 0%, rgb(244, 245, 245) 100%);
 
     font-family: var(--fonte1);
     font-size: 45px;
